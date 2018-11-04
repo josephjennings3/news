@@ -1,0 +1,269 @@
+html body{
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #333;
+	line-height: 1.42857143;
+	background: #f2f2f2;
+}
+
+img{
+	vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*----------------Pill-----------*/
+
+#pill{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background: #222;
+	border-radius: 30px;
+	cursor: pointer;
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: normal;
+	width: 207px;
+	height: 52px;
+	line-height: normal;
+	white-space: nowrap;
+	text-align: left !important;
+	z-index: 100;
+	font-size: 16px;
+}
+
+#pilltext{
+	color: #fff;
+	position: relative;
+	left: 50px;
+	top: -7px;
+	font-size: 20px;
+}
+
+#pilltext a{
+	color: #fff;
+	text-decoration: none;
+}
+
+/*---------Header----------*/
+
+.header{
+	background: #000;
+	min-height: 80px;
+}
+
+.header img{
+	margin: 15px 0 0 0;
+}
+
+.search{
+	float: right;
+	margin: 25px 0 0 0;
+}
+
+.search-form input{
+	background: transparent;
+	border: 0px;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	height: 30px;
+	width: 240px;
+}
+
+.search-form button{
+	background: transparent;
+	border: 0px;
+	border-bottom: 1px solid #1a77ff;
+	color: #fff;
+	height: 30px;
+	margin: 0 0 0 10px;
+	padding: 0 10px;
+}
+
+/*-------------Menu-------------*/
+
+.menu{
+	background: #152230;
+	min-height: 40px;
+}
+
+.menu ul.nav{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu ul.nav li{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0 20px;
+	text-align: center;
+}
+
+.menu ul.nav li:hover{
+	background-color: #1a77ff;
+}
+
+.menu ul.nav li.active{
+	background-color: #1a77ff;
+}
+
+/*-------------Main------------*/
+
+.main{
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg) no-repeat center;
+	background-size: cover;
+	height: 500px;
+}
+
+.row{
+	margin: 0 -15px 0 -15px;
+}
+
+.main .container .col-md-5{
+	padding: 40px;
+	color: #fff;
+}
+
+.main .container .col-md-5 p.date{
+	font-size: 16px;
+}
+
+.main .container h2{
+	font-size: 60px;
+	margin: 20px 0;
+}
+
+span{
+	border-bottom: 5px solid #1a77ff;
+}
+
+.main p{
+	font-size: 20px;
+}
+
+/*-----------Supporting-------------*/
+
+.supporting .row{
+	margin: 50px 0;
+}
+
+.col-md-8{
+	background-color: #fff;
+	color: #000;
+	padding: 20px 40px 40px 40px;
+	float: left;
+	width: 53.666667%;
+}
+
+.col-md-4{
+	background-color: #152230;
+	color: #fff;
+	padding: 20px 40px 30px 40px;
+	float: left;
+	width: 24.333333%;
+}
+
+.col-md-12{
+	margin: 0;
+	padding: 0;
+}
+
+.col-md-12 img{
+	width: 100%;
+}
+
+/*------------Footer------------*/
+
+.footer{
+	background: #000;
+	padding: 40px 0;
+}
+
+.footer ul{
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.footer li{
+	display: inline;
+	color: #fff;
+	margin: 0 40px 0 0;	
+}
+
+.footer p{
+	color: #e2e2e2;
+	float: right;
+	margin: 0 0 10px;
+}
+
+/*------------SubPage-----------------------------
+
+
+----------------SubMain---------------------*/
+
+.submain{
+	background: url(http://www.josephjennings3.com/newsroom/img/newsroom2.jpg) no-repeat center;
+	background-size: cover;
+	height: 500px;
+}
+
+.row{
+	margin: 0 -15px 0 -15px;
+}
+
+.submain .container .col-md-5{
+	padding: 40px;
+	color: #fff;
+}
+
+.submain .container h2{
+	font-size: 60px;
+	padding: 59px 0px 0px 330px;
+}
+
+span{
+	border-bottom: 5px solid #1a77ff;
+}
+
+.submain p{
+	font-size: 20px;
+	padding: 0px 200px 0px 200px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.suppcol-md-8{
+	background-color: #fff;
+	color: #000;
+	padding: 20px 40px 40px 40px;
+	float: left;
+	width: 53.666667%;
+	padding-bottom: 130px;
+}
