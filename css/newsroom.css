@@ -327,4 +327,20 @@ span{
 		margin: auto;
 		padding-top: 20px;
 	}
+
+	.submain {
+		height: 100%;
+	}
+
+	.submain .container h2 {
+		padding: 0px;
+	}
+
+	.submain p {
+		padding: 0px;
+	}
+
+	.suppcol-md-8 {
+		width: 70%;
+	}
 }
