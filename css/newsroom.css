@@ -229,7 +229,7 @@ span{
 ----------------SubMain---------------------*/
 
 .submain{
-	background: url(http://www.josephjennings3.com/newsroom/img/newsroom2.jpg) no-repeat center;
+	background: url(../img/newsroom2.jpg) no-repeat center;
 	background-size: cover;
 	height: 500px;
 }
@@ -266,4 +266,65 @@ span{
 	float: left;
 	width: 53.666667%;
 	padding-bottom: 130px;
+}
+
+/* -------- MOBILE -------- */
+
+@media only screen and (max-width: 800px) {
+
+	#pill {
+		display: none;
+	}
+
+	.menu ul.nav {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.menu {
+		padding-top: 55px;
+	}
+
+	.container {
+		padding: 0px;
+	}
+
+	.main .container h2 {
+		font-size: 225%;
+	}
+
+	.row {
+		width: 100%;
+	}
+
+	.col-md-8 {
+		width: 97%;
+		padding: 20px 0px 30px 10px;
+	}
+
+	.col-md-4 {
+		width: 75%;
+		padding: 20px 0px 30px 10px;
+	}
+
+	.supporting .row {
+		margin: 5px 0;
+	}
+
+	.flex_footer {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.flex_footer ul {
+		display: flex;
+		justify-content: center;
+	}
+
+	.footer p {
+		margin: auto;
+		padding-top: 20px;
+	}
 }
